@@ -4,7 +4,6 @@ GEM
     daemons (1.1.9)
     eventmachine (1.0.3)
     rack (1.5.2)
-    rack-cors (0.2.9)
     rake (10.1.0)
     shelly-dependencies (0.2.3)
       rake
@@ -18,5 +17,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  rack-cors
+  rack
   shelly-dependencies

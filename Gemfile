@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rack-cors', :require => 'rack/cors'
+gem 'rack'
 
 #shelly cloud
 group :production do
