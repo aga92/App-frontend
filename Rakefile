@@ -1,4 +1,4 @@
-namespace :db do
-  task :migrate
-  task :setup
-end
+#namespace :db do
+#  task :migrate
+#  task :setup
+#end
