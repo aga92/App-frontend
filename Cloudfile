@@ -1,0 +1,9 @@
+firstfrontendapp:
+  environment: production
+  monitoring_email: agata.maciocha@gmail.com
+  domains:
+    - firstfrontendapp.shellyapp.com
+  servers:
+    app1:
+      size: large
+      thin: 4
