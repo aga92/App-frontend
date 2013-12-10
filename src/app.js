@@ -56,7 +56,7 @@
 
     Provider.prototype.getUserData = function() {
       var _this = this;
-      return $.ajax('http://localhost:3000/posts.json', {
+      return $.ajax('http://firstbackendapp.shellyapp.com/posts.json', {
         type: 'GET',
         datatype: "jsonp",
         jsonp: 'jsonp',

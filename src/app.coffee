@@ -18,7 +18,7 @@ class Provider
   providedUserData: (userData) =>
 
   getUserData: =>
-    $.ajax 'http://localhost:3000/posts.json',#'data/abc.json', # , #
+    $.ajax 'http://firstbackendapp.shellyapp.com/posts.json',#'data/abc.json', # , #
       type : 'GET'
       datatype : "jsonp"
       jsonp : 'jsonp'
